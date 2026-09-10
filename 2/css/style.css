@@ -1,0 +1,29 @@
+ul {
+	display: flex; /*Rule for 1*/
+	list-style-type: none; /*Rule for 1*/
+}
+
+li {
+	background-color: #00beff; /*Rule for 2*/
+	/*margin: 0 30px; Rule for 3a*/
+	/*margin: 0 30em; Rule for 3b*/
+	/*padding: 0 30px; Rule for 4a*/
+	/*padding: 0 30em; Rule for 4b*/
+	padding: 0 10em; /*Rule for 4c*/
+}
+
+p {
+	float: right; /*Rule for 5*/
+}
+
+img {
+	height: 400px; /*Rule for 6*/
+	width: 400px; /*Rule for 6*/
+}
+
+span {
+	color: white; /*Extra rule I made to make the Hotty Toddy more visible*/
+	position: absolute; /*Rule for 7*/
+	inset-inline: 310px; /*Rule for 7*/
+	inset-block: 490px; /*Rule for 7*/
+}
