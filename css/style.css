@@ -1,0 +1,29 @@
+header {
+	background-color: #0037ba;
+	border: 1px solid;
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	color: #1be4a8;
+}
+
+#links {
+	justify-self: center;
+}
+
+footer {
+	color: #0037ba;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+}
+
+main {
+	flex: 1;
+}
