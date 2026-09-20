@@ -1,6 +1,6 @@
 header {
 	background-color: #0037ba;
-	border: 1px solid;
+	border-bottom: 2px solid black;
 	display: flex;
 	justify-content: center;
 }
@@ -11,6 +11,13 @@ h1 {
 
 #links {
 	justify-self: center;
+	justify-content: center;
+	display: flex;
+	width: 70%;
+	border: 5px ridge black;
+	padding: 2em 2em;
+	flex-wrap: wrap;
+	background: #0037ba;
 }
 
 footer {
@@ -22,8 +29,28 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	margin: 0;
+	background: #f2d492;
 }
 
 main {
 	flex: 1;
+}
+
+p {
+	justify-self: center;
+	color: #0037ba;
+}
+
+.card {
+	display: flex;
+	border: 5px ridge black;
+	margin: 1em 1em;
+	justify-content: center;
+	padding: 1em 1em;
+	flex: 1 1 25%;
+	background: #ed6b86;
+}
+
+a {
+	color: #1be4a8;
 }
