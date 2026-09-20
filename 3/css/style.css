@@ -1,6 +1,6 @@
 body {
 	background: #a51080;
-	color: #ffe2d1;
+	color: black;
 	padding: 0 15%;
 }
 
@@ -18,8 +18,10 @@ section {
 	padding: 0 1%;
 }
 
-.underline {
-	text-decoration: underline blue;
+.bold-and-italic {
+	font-weight: bold;
+	font-style: italic;
+}
 
 li {
 	margin: 3px;
@@ -28,4 +30,8 @@ li {
 hr {
 	border-color: #ffe2d1;
 	border-width: 3px;
+}
+
+a {
+	color: black;
 }
