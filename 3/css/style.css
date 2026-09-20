@@ -1,0 +1,31 @@
+body {
+	background: #a51080;
+	color: #ffe2d1;
+	padding: 0 15%;
+}
+
+header {
+	border: 1px solid #ffe2d1;
+	background: #4fa07e;
+	display: flex;
+	justify-content: center;
+}
+
+section {
+	border: 1px solid #ffe2d1;
+	margin: 2% 0;
+	background: #4fa07e;
+	padding: 0 1%;
+}
+
+.underline {
+	text-decoration: underline blue;
+
+li {
+	margin: 3px;
+}
+
+hr {
+	border-color: #ffe2d1;
+	border-width: 3px;
+}
