@@ -1,0 +1,523 @@
+body {
+	background-color: #07509e;
+	color: #ffffff;
+	font-size: 1.2em;
+	min-height: 97vh;
+	display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.credits_body {
+	display: flow;
+}
+
+header {
+	display: flex;
+	flex-flow: column nowrap;
+	border: 5px double;
+	background-color: #fff9e8;
+	color: #000000;
+	margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+	align-self: center;
+	text-align: center;
+}
+
+button {
+	align-self: start;
+	position: absolute;
+}
+
+#credits_ul {
+	padding-left: 10px;
+}
+
+nav ul {
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 0;
+}
+
+li {
+	width: 100%;
+	margin: 15px 0;
+}
+
+nav ul li {
+	align-self: center;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+	font-size: 150%;
+	border-top: 5px ridge;
+	border-bottom: 5px ridge;
+	width: 100%;
+}
+
+.dark_anchor {
+	color: #2724ff;
+}
+
+.dark_anchor:visited {
+	color: #950f95;
+}
+
+.light_anchor {
+	color: #dbf7ff;
+}
+
+.light_anchor:visited {
+	color: #ffebff;
+}
+
+#home_img1 {
+	max-height: 412px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#static_img1 {
+	max-height: 333px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#rikishi_img1 {
+	max-height: 375px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#gyoji_img1 {
+	max-height: 640px;
+	max-width: 480px;
+	width: 90%;
+	align-self: center;
+}
+
+#shimpan_img1 {
+	max-height: 360px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#yobidashi_img1 {
+	max-height: 361px;
+	max-width: 501px;
+	width: 90%;
+	align-self: center;
+}
+
+#komusubi_img1 {
+	max-height: 535px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#sekiwake_img1 {
+	max-height: 906px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#ozeki_img1 {
+	max-height: 413px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#yokozuna_img1 {
+	max-height: 375px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#kokugikan_img1 {
+	max-height: 357px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#edion_img1 {
+	max-height: 357px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#ig_img1 {
+	max-height: 333px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#fukuoka_img1 {
+	max-height: 349px;
+	max-width: 525px;
+	width: 90%;
+	align-self: center;
+}
+
+#main_prizes_img1 {
+	max-height: 667px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#dip_img1 {
+	max-height: 667px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#gov_img1 {
+	max-height: 392px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+#press_img1 {
+	max-height: 475px;
+	max-width: 500px;
+	width: 90%;
+	align-self: center;
+}
+
+main {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+p {
+	margin: 0;
+}
+
+footer {
+	text-align: center;
+	margin-top: 20px;
+	background-color: #fff9e8;
+	color: #000000;
+	border: 5px double;
+	padding: 5px 0;
+}
+
+.img_container {
+	display: none;
+}
+
+.current {
+	background-color: #893406;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+form {
+	align-self: center;
+}
+
+textarea {
+	width: 45vw;
+	height: 100px;
+}
+
+.card {
+	align-self: center;
+	border: 5px double;
+	background-color: #fff9e8;
+	color: #000000;
+	width: 75%;
+}
+
+@media (min-width: 768px) {
+	#credits_ul {
+		padding-left: 40px;
+	}
+	
+	body {
+		font-size: 1.5em;
+	}
+	
+	nav ul {
+		flex-flow: row nowrap;
+		padding-left: 0;
+	}
+	
+	.home_li_left {
+		border-right: 5px ridge;
+	}
+	
+	.home_li_center {
+		border: 5px ridge;
+	}
+	
+	.home_li_right {
+		border-left: 5px ridge;
+	}
+	
+	.card {
+		width: 400px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.img_container {
+		display: flex;
+		flex-flow: row wrap;
+		gap: 1em;
+		justify-content: center;
+		margin-top: 20px;
+	}
+	
+	#home_img2 {
+		max-height: 628px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#home_img3 {
+		max-height: 880px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#home_img4 {
+		max-height: 948px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#static_img2 {
+		max-height: 900px;
+		max-width: 1029px;
+		width: 40%;
+	}
+	
+	#static_img3 {
+		max-height: 854px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#static_img4 {
+		max-height: 1000px;
+		max-width: 750px;
+		width: 40%;
+	}
+	
+	#rikishi_img2 {
+		max-height: 1704px;
+		max-width: 2272px;
+		width: 40%;
+	}
+	
+	#rikishi_img3 {
+		max-height: 2150px;
+		max-width: 3000px;
+		width: 40%;
+	}
+	
+	#gyoji_img2 {
+		max-height: 3248px;
+		max-width: 5184px;
+		width: 40%;
+	}
+	
+	#gyoji_img3 {
+		max-height: 4080px;
+		max-width: 3224px;
+		width: 40%;
+	}
+	
+	#shimpan_img2 {
+		max-height: 1806px;
+		max-width: 2709px;
+		width: 40%;
+	}
+	
+	#shimpan_img3 {
+		max-height: 2448px;
+		max-width: 4352px;
+		width: 40%;
+	}
+	
+	#yobidashi_img2 {
+		max-height: 1239px;
+		max-width: 800px;
+		width: 30%;
+	}
+	
+	#yobidashi_img3 {
+		max-height: 2336px;
+		max-width: 3504px;
+		width: 50%;
+	}
+	
+	#komusubi_img2 {
+		max-height: 3813px;
+		max-width: 1945px;
+		width: 40%;
+	}
+	
+	#komusubi_img3 {
+		max-height: 3595px;
+		max-width: 2115px;
+		width: 40%;
+	}
+	
+	#sekiwake_img2 {
+		max-height: 3378px;
+		max-width: 2415px;
+		width: 40%;
+	}
+	
+	#sekiwake_img3 {
+		max-height: 3825px;
+		max-width: 2031px;
+		width: 40%;
+	}
+	
+	#ozeki_img2 {
+		max-height: 2354px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#ozeki_img3 {
+		max-height: 2268px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#yokozuna_img2 {
+		max-height: 1620px;
+		max-width: 1080px;
+		width: 30%;
+	}
+	
+	#yokozuna_img3 {
+		max-height: 1008px;
+		max-width: 1280px;
+		width: 50%;
+	}
+	
+	#kokugikan_img2 {
+		max-height: 856px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#kokugikan_img3 {
+		max-height: 600px;
+		max-width: 800px;
+		width: 40%;
+	}
+	
+	#edion_img2 {
+		max-height: 851px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#edion_img3 {
+		max-height: 900px;
+		max-width: 1200px;
+		width: 40%;
+	}
+	
+	#ig_img2 {
+		max-height: 500px;
+		max-width: 750px;
+		width: 40%;
+	}
+	
+	#ig_img3 {
+		max-height: 576px;
+		max-width: 768px;
+		width: 40%;
+	}
+	
+	#fukuoka_img2 {
+		max-height: 768px;
+		max-width: 1024px;
+		width: 40%;
+	}
+	
+	#fukuoka_img3 {
+		max-height: 793px;
+		max-width: 1200px;
+		width: 40%;
+	}
+	
+	#main_prizes_img2 {
+		max-height: 406px;
+		max-width: 273px;
+		width: 50%;
+	}
+	
+	#main_prizes_img3 {
+		max-height: 1707px;
+		max-width: 1280px;
+		width: 30%;
+	}
+	
+	#dip_img2 {
+		max-height: 1707px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#dip_img3 {
+		max-height: 1920px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#gov_img2 {
+		max-height: 768px;
+		max-width: 355px;
+		width: 40%;
+	}
+	
+	#gov_img3 {
+		max-height: 1707px;
+		max-width: 1280px;
+		width: 40%;
+	}
+	
+	#press_img2 {
+		max-height: 1245px;
+		max-width: 534px;
+		width: 40%;
+	}
+	
+	#press_img3 {
+		max-height: 852px;
+		max-width: 771px;
+		width: 40%;
+	}
+}
