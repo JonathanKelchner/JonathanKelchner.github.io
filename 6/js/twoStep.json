@@ -1,0 +1,202 @@
+{
+	"people": {
+        "title": "People In and Around the Ring",
+        "header": "People In and Around the Ring",
+        "buttons": {
+            "one": "Rikishi",
+            "two": "Gyoji",
+            "three": "Shimpan",
+            "four": "Yobidashi"
+        }
+    },
+    "sanyaku": {
+        "title": "San'yaku",
+        "header": "San'yaku",
+        "buttons": {
+            "one": "Komusubi",
+            "two": "Sekiwake",
+            "three": "Ozeki",
+            "four": "Yokozuna"
+        }
+    },
+    "venues": {
+        "title": "Tournament Venues",
+        "header": "Tournament Venues",
+        "buttons": {
+            "one": "Ryogoku Kokugikan",
+            "two": "EDION Arena Osaka",
+            "three": "IG Arena",
+            "four": "Fukuoka Kokusai Center"
+        }
+    },
+    "trophies": {
+        "title": "Trophies and Prizes",
+        "header": "Trophies and Prizes",
+        "buttons": {
+            "one": "Main Prizes/Once a Year Trophies",
+            "two": "Diplomatic Trophies",
+            "three": "Governmental Trophies",
+            "four": "Press and Business Trophies"
+        }
+    },
+    "default": {
+        "title": "In-Depth Sumo Topics",
+        "header": "In-Depth Sumo Topics",
+        "buttons": {
+            "one": "People in and Around the Ring",
+            "two": "San'yaku",
+            "three": "Tournament Venues",
+            "four": "Trophies and Prizes"
+        }
+    },
+    "rikishi": {
+        "title": "Rikishi",
+        "header": "Rikishi",
+        "img1": "<img id=\"rikishi_img1\" src=\"img/Sumo_(3442916595).jpg\" alt=\"Rikishi training with each other in their stable\" />",
+        "header2": "<h2>Who are the Rikishi?</h2>",
+        "p": "<p>A rikishi, also known as a sumotori or, more colloquially, as osumosan, is a sumo wrestler. While the term does apply to any sumo wrestler, it's mostly used to refer to professional wrestlers. Professional rikishi have to follow the long-standing traditions of sumo, which consists of codes, customs, and rules that apply to how they live and dress (although the dress part is according to the rikishi's rank). Technically it is incorrect call rikishi \"wrestlers,\" as sumo has little in common with Greco-Roman wrestling and is more akin to judo or aikido, but I do refer to them as \"wrestlers\" to those who are new to sumo to help them grasp the concept better. There is also a special term to refer to rikishi who are in the two highest divisions of juryo and makuuchi, which is sekitori. The sekitori have significantly more status and privilege over their lower division counterparts, not to mention that the sekitori also get a salary instead of an allowance.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"rikishi_img2\" src=\"img/Carrying_a_Bag_(3936147485).jpg\" alt=\"A lower ranked rikishi carrying the bag of a sekitori\" /><img id=\"rikishi_img3\" src=\"img/Sumoworkout.jfif\" alt=\"Several rikishi form a curved line around their stable's dohyo during a training session\" /></div>"
+    },
+    "gyoji": {
+        "title": "Gyoji",
+        "header": "Gyoji",
+        "img1": "<img id=\"gyoji_img1\" src=\"img/Sumo4-vi.jpg\" alt=\"A gyoji in full traditional dress squating and spinning the tassel attached to his gunbai (the fan a gyoji uses) during a dohyo-iri (ring-entering ceremony)\" />",
+        "header2": "<h2>Who is the Gyoji?</h2>",
+        "p": "<p>A gyoji is a referee who is employed by the Japan Sumo Association to do many things, like refereeing bouts, presiding over ring-entering ceremonies, and preserving sumo culture, amongst other obligations.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"gyoji_img2\" src=\"img/Chiyomaru_vs._Tamawashi_May_2014_001.jpg\" alt=\"A gyoji holds his gunbai flat against him as two wrestlers are about to start their bout\" /><img id=\"gyoji_img3\" src=\"img/Banzuke2.jpg\" alt=\"The banzuke (rankings chart) for a basho that is hand written by the gyoj\" /></div>"
+    },
+    "shimpan": {
+        "title": "Shimpan",
+        "header": "Shimpan",
+        "img1": "<img id=\"shimpan_img1\" src=\"img/MontsukiHaoriHakama.png\" alt=\"An illustration of what a shimpan's outfit looks like from the front and the back\" />",
+        "header2": "<h2>Who are the Shimpan?</h2>",
+        "p": "<p>A shimpan, or shinpan, is a ringside judge who sits around the dohyo and observes each bout, identifying which wrestler wins and supervising the work of the gyoji to ensure that no refereeing errors were made.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"shimpan_img2\" src=\"img/Mono-ii.jpg\" alt=\"Five shimpan gather in the middle of the dohyo to have a mono-ii\" /><img id=\"shimpan_img3\" src=\"img/Sumo_-Tokyo_2011_09_17_b.jpg\" alt=\"The timekeeper shimpan can be seen sitting in the background while a yobidashi and gyoji are in the dohyo\" /></div>"
+    },
+    "yobidashi": {
+        "title": "Yobidashi",
+        "header": "Yobidashi",
+        "img1": "<img id=\"yobidashi_img1\" src=\"img/Yobidashi.png\" alt=\"An illustration of a yobidashi's outfit from the front and the back\" />",
+        "header2": "<h2>Who are the Yobidashi?</h2>",
+        "p": "<p>A yobidashi, often translated in English as \"usher\", \"ring attendant\", or \"ring announcer\", is an employee of the Japan Sumo Association responsible for various tasks essential to the traditional running of bashos.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"yobidashi_img2\" src=\"img/Yobidashi_Hideo_2008_May.jpg\" alt=\"A yobidashi holds out a paper fan while announcing the names of the wrestlers who are about to enter the dohyo for their bout\" /><img id=\"yobidashi_img3\" src=\"img/Japon_tokyo_0801a.jpg\" alt=\"Yobidashi parade the kensho banners around the dohyo while the wrestlers prepare for their bout\" /></div>"
+    },
+    "komusubi": {
+        "title": "Komusubi",
+        "header": "Komusubi",
+        "img1": "<img id=\"komusubi_img1\" src=\"img/Kusano-20250721.jpg\" alt=\"Former komusubi Yoshinofuji squating on the dohyo\" />",
+        "header2": "<h2>What is the rank of Komusubi?</h2>",
+        "p": "<p>The komusubi rank is the fourth highest rank in sumo, and is the lowest of the san'yaku, the title holder ranks. A wrestler can get promoted to this rank by simply getting kachi-koshi, a winning record, given that there is a spot for him; each banzuke, or rankings chart, must have at least two komusubi, and only in rare circumstances is a wrestler promoted to komusubi when the two slots are already filled. Similarly, a wrestler can get demoted from komusubi by getting a make-koshi, a losing record, and fall out of the san'yaku in back into the maegashira ranks (the lower and mid ranks of the makuuchi division). Komusubi, along with the next highest rank of sekiwake, are often considered the \"junior\" san'yaku ranks as they lack the strict promotion criteria that the ranks of ozeki and yokozuna have.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"komusubi_img2\" src=\"img/Ochiai_Tetsuya20230514.jpg\" alt=\"Former komusubi Hakunofuji preparing to throw salt in the dohyo\" /><img id=\"komusubi_img3\" src=\"img/Ura_Kazuki20220115-1.jpg\" alt=\"Former komusubi Ura standing with his hands near the sides of his mawashi\" /></div>"
+    },
+    "sekiwake": {
+        "title": "Sekiwake",
+        "header": "Sekiwake",
+        "img1": "<img id=\"sekiwake_img1\" src=\"img/Fujinokawa-20250721.jpg\" alt=\"Sekiwake Fujinokawa stading on the dohyo\" />",
+        "header2": "<h2>What is the rank of Sekiwake?</h2>",
+        "p": "<p>The sekiwake rank is the third highest rank in sumo, and is the second lowest of the san'yaku, the title holder ranks. A wrestler can get promoted to sekiwake by getting a kachi-koshi, a winning record, as a komusubi, given that there is space for him; each banzuke, or rankings chart, is required to have a minimum of two sekiwake. It's rare to have more than two sekiwake, as this can only happen when a komusubi gets a convincing record of 11 wins and 5 losses or greater while the two sekiwake slots are already filled, or when an ozeki gets demoted and the two sekiwake slots are already filled. This is the highest rank that a wrestler can achieve by only getting kachi-koshi; to rise to a higher rank, special criteria must be met for promotion. Similar to promotion, a wrestler can get demoted by getting a make-koshi, a losing record, falling back down to komusubi. Sekiwake and komusubi are considered the \"junior\" san'yaku ranks as they lack the strict promotion criteria that the ranks of ozeki and yokozuna have.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"sekiwake_img2\" src=\"img/Kotoshoho_Yoshinari20220115-2.jpg\" alt=\"Former sekiwake Kotoshoho standing in a tournament venue\" /><img id=\"sekiwake_img3\" src=\"img/Atamifuji_Sakutaro20220718.jpg\" alt=\"Sekiwake Atamifuji getting ready to squat down on the dohyo and start his bout\" /></div>"
+    },
+    "ozeki": {
+        "title": "Ozeki",
+        "header": "Ozeki",
+        "img1": "<img id=\"ozeki_img1\" src=\"img/Aonishiki.webp\" alt=\"Ozeki Aonishiki claims his kensho money from the gyoji after winning a bout\" />",
+        "header2": "<h2>What is the rank of Ozeki?</h2>",
+        "p": "<p>The ozeki, or champion, rank is the second highest rank in sumo, and is the second highest of the san'yaku, the title holder ranks. Technically, there must be at least two ozeki on the banzuke, the rankings chart, but this may not haappen all the time in practice. If there are less than two ozeki, then one or more yokozuna will be designated as \"yokozuna-ozeki\". There's also no limit to how many ozeki there can be, with a record of six ozeki on the banzuke being made in 2012.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"ozeki_img2\" src=\"img/Kotonowaka_Masahiro20220115-2.jpg\" alt=\"Ozeki Kotozakura preparing to squat down on the dohyo to start the bout\" /><img id=\"ozeki_img3\" src=\"img/Kiribayama_Tetsuo20230514.jpg\" alt=\"Ozeki Kirishima standing and looking upward\" /></div>"
+    },
+    "yokozuna": {
+        "title": "Yokozuna",
+        "header": "Yokozuna",
+        "img1": "<img id=\"yokozuna_img1\" src=\"img/Hakuho_Shiranui_dohyo-iri_2012_Jan.jpg\" alt=\"69th yokozuna Hakuho performing his dohyo-iri\" />",
+        "header2": "<h2>What is the rank of Yokozuna?</h2>",
+        "p": "<p>The yokozuna rank is the highest rank in sumo, and is the highest of the san'yaku, the title holder ranks. The name yokozuna literally means \"horizontal rope\", refering to the rope that they wear around their waists for ceremonial purposes. Since formal record keeping of sumo started in 1789, there have only been 75 wrestlers who have reached the rank of yokozuna. This is due to the fact that it is extremely difficult to get promoted to yokozuna. Unlike the other sumo ranks, yokozuna can not be demoted, but this means that they must keep their performance to the highest standards, like regularly winning, or almost winning, yushos (championships). A single make-koshi, a losing record, can pose serious concerns about if the wrestler is still fit for the title of yokozuna. Because of the amount of pressure that comes with upholding the rank, yokozuna tend to withdraw from bashos citing health reasons, sometimes withdrawing in the middle of a basho. If a yokozuna performs poorly for an extended period of time, or hasn't held up the dignity of the rank outside of bashos, he may be recommended to retire by the Yokozuna Deliberation Council. Retiring from sumo is the only way for a yokozuna to stop being a yokozuna.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"yokozuna_img2\" src=\"img/Hoshoryu20251123.jpg\" alt=\"74th yokozuna Hoshoryu performing his dohyo-iri\" /><img id=\"yokozuna_img3\" src=\"img/Onosato-20250721.jpg\" alt=\"75th yokozuna Onosato performing his dohyo-iri\" /></div>"
+    },
+    "kokugikan": {
+        "title": "Ryogoku Kokugikan",
+        "header": "Ryogoku Kokugikan",
+        "img1": "<img id=\"kokugikan_img1\" src=\"img/Ryogoku_Great_Sumo_Hall_(cropped).jpg\" alt=\"The outside of the Ryogoku Kokugikan viewed from the West from a far distance away\" />",
+        "header2": "<h2>Where is the Ryogoku Kokugikan located?</h2>",
+        "p": "<p>The Ryogoku Kokugikan, often refered to as the Kokugikan, is located in Tokyo.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"kokugikan_img2\" src=\"img/Ryogoku_Kokugikan-1a.jpg\" alt=\"The main entrance of the Ryogoku Kokugikan at the street level. A tower can be seen to the right of the building which is where the yosedaiko (drums sounded in the morning of a tournament to draw the crowds) is performed\" /><img id=\"kokugikan_img3\" src=\"img/Ryogoku_Kokugikan3.jpg\" alt=\"The entrance to the sumo museum located within the Ryogoku Kokugikan\" /></div>"
+    },
+    "osaka": {
+        "title": "EDION Arena Osaka",
+        "header": "EDION Arena Osaka",
+        "img1": "<img id=\"edion_img1\" src=\"img/Osaka_Prefectural_Gymnasium_20191129.jpg\" alt=\"The outside of EDION Area Osaka viewed from the street\" />",
+        "header2": "<h2>Where is the EDION Arena Osaka located?</h2>",
+        "p": "<p>The EDION Arena Osaka, also known as the Osaka Prefectural Gymnasium, is located, as the name suggests, in Osaka.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"edion_img2\" src=\"img/Sumo_-Osaka_2010_03_23_a.jpg\" alt=\"Two wrestlers prepare for their bout on the dohyo inside of the EDION Arena Osaka\" /><img id=\"edion_img3\" src=\"img/PXL_20240316_055423839~2+WEB.webp\" alt=\"A wide view of the inside of the EDION Arena Osaka taken from one of the seats on the lower level\" /></div>"
+    },
+    "ig": {
+        "title": "IG Arena",
+        "header": "IG Arena",
+        "img1": "<img id=\"ig_img1\" src=\"img/NGO_Kita_Meijokoen_20250712_1446a.jpg\" alt=\"The entrance of the IG arena with stairs leading up to it\" />",
+        "header2": "<h2>Where is the IG Arena located?</h2>",
+        "p": "<p>The IG Arena, also known as the Aichi International Arena, is located in Nagoya.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"ig_img2\" src=\"img/ig-arena003.webp\" alt=\"Concept art of how the IG Arena would look from the outside at night\" /><img id=\"ig_img3\" src=\"img/ig-arena-17.jfif\" alt=\"A wide shot of the inside of the IG Arena where you can see a large crowd of spectators watching sumo\" /></div>"
+    },
+    "fukuoka": {
+        "title": "Fukuoka Kokusai Center",
+        "header": "Fukuoka Kokusai Center",
+        "img1": "<img id=\"fukuoka_img1\" src=\"img/l.jfif\" alt=\"A wide shot of the inside of the Fukuoka Kokusai Center with lots of empty seating\" />",
+        "header2": "<h2>Where is the Fukuoka Kokusai Center located?</h2>",
+        "p": "<p>The Fukuoka Kokusai Center, which is a part of the Fukuoka Convention Center, is located, as the name suggests, in Fukuoka.</p>",
+        "img_container": "<div class=\"img_container\"><img id=\"fukuoka_img2\" src=\"img/Fukuoka_International_Center.jpg\" alt=\"The outside of the Fukuoka Kokusai Center during a basho, with lots of banners and people seen gathered around the building\" /><img id=\"fukuoka_img3\" src=\"img/s-2121x1402_v-frms_webp_b7d9b3e9-13d3-4eb4-bb2b-5cb19667d4ac_middle.webp\" alt=\"The full front side of the Fukuoka Kokusai Center on a clear sunny day\" /></div>"
+    },
+    "main_prizes": {
+        "title": "Main Prizes/Once a Year Trophies",
+        "header": "Main Prizes/Once a Year Trophies",
+        "img1": "<img id=\"main_prizes_img1\" src=\"img/Sumo_Emperor_Cup.jpg\" alt=\"The Emperor's Cup, a large silver trophy with two large handles mounted on a base\" />",
+        "header2": "<h2>The Main Prizes</h2>",
+        "p1": "<p>These are the main prizes given out to the wrestler who wins the yusho (championship) in the top division:</p>",
+        "ul1": "<ul><li>The Emperor's Cup</li><li>The championship flag</li><li>Prime Minister's Cup</li></ul>",
+        "header3": "<h2>Once a Year Trophies</h2>",
+        "p2": "<p>These trophies are only handed out during the last basho of the year in November:</p>",
+        "ul2": "<ul><li>Nishinippon Shimbun Award</li><li>Hochi Wrestler of the Year Award</li><li>Best Makuuchi Newcomer Award</li></ul>",
+        "img_container": "<div class=\"img_container\"><img id=\"main_prizes_img2\" src=\"img/Tochinishiki_receives_the_winner_flag_1955.jpg\" alt=\"A wrestler holds the championship flag. The photo is in black and white, and the flag is illegible\" /><img id=\"main_prizes_img3\" src=\"img/Sumo_Prime_Minister_Cup_09_Sep.jpg\" alt=\"The Prime Minister's Cup, a wide silver trophy that is similar in shape to a goblet\" /></div>"
+    },
+    "diplomatic": {
+        "title": "Diplomatic Trophies",
+        "header": "Diplomatic Trophies",
+        "img1": "<img id=\"dip_img1\" src=\"img/United_Mexican_Friendship_Plaque.jpg\" alt=\"The United Mexican Friendship Plaque, which looks like an aztec calendar\" />",
+        "p": "<p>These are the diplomatic trophies given out to the wrestler who wins the yusho (championship) in the top division:</p>",
+        "ul1": "<ul><li>French-Japanese Friendship Cup (and giant macaron)</li><li>United Mexican Friendship Plaque</li><li>Cup of His Highness</li><li>Chiang Rai Elephant trophy</li><li>Hungarian Friendship (tea) Cup</li><li>Czech crystal cup</li><li>Mongolian Prime Minister's award</li></ul>",
+        "header2": "<h2>Tokyo Specific Diplomatic Trophies</h2>",
+        "ul2": "<ul><li>Chinese Embassy Award</li><li>United States President's Cup</li><li>Cup of the Bulgarian government</li><li>Italia Hatsubasho Award</li><li>Japanese-Israel Friendship Trophy</li></ul>",
+        "img_container": "<div class=\"img_container\"><img id=\"dip_img2\" src=\"img/Mongolian_Award_2023.jpg\" alt=\"The Mongolian Prime Minister's award, a trophy that looks like three silver bokh wrestlers holding up a silver cup\" /><img id=\"dip_img3\" src=\"img/The_China-Japan_Friendship_Cup_May_2014.jpg\" alt=\"The Chinese Embassy Award, a trophy that is made of colored enamels\" /></div>"
+    },
+    "governmental": {
+        "title": "Governmental Trophies",
+        "header": "Governmental Trophies",
+        "img1": "<img id=\"gov_img1\" src=\"img/Fukushima_Prefectural_Governor's_Award.png\" alt=\"The Fukushima Governor's Award, which looks like a red cow\" />",
+        "p": "<p>These are the governmental trophies given out to the wrestler who wins the yusho (championship) in the top division:</p>",
+        "ul1": "<ul><li>Miyazaki Governor's Award</li><li>Fukui Prefectural Prize</li><li>Nara Prefectural Governor's Award</li></ul>",
+        "header2": "<h2>Tokyo Specific Governmental Trophies</h2>",
+        "ul2": "<ul><li>Tokyo Metropolitan Governor's Award</li><li>Fukushima Governor's Award (and 15 kg (33 lb) tawara straw bag of rice)</li></ul>",
+        "header3": "<h2>Osaka Specific Governmental Trophies</h2>",
+        "ul3": "<ul><li>Osaka Prefectural Governor's Award</li><li>Wakayama Prefectural Governor's Prize</li><li>Yuasa Mayor's Award (and fermentation wooden barrel)</li></ul>",
+        "header4": "<h2>Nagoya Specific Governmental Trophies</h2>",
+        "ul4": "<ul><li>Aichi Prefectural Governor's Award (and bouquet)</li><li>Nagoya Mayor's Award (Makuuchi)</li><li>Nagoya Mayor's Award (Juryo)</li></ul>",
+        "header5": "<h2>Fukuoka Specific Governmental Trophies</h2>",
+        "ul5": "<ul><li>Fukuoka Prefectural Governor's Prize</li><li>Fukuoka Mayor's Award</li></ul>",
+        "img_container": "<div class=\"img_container\"><img id=\"gov_img2\" src=\"img/Miyazaki_prefecture_trophee_(cropped).jpg\" alt=\"The Miyazaki Governor's Award, a trophy in the shape of a cow dressed for a contest\" /><img id=\"gov_img3\" src=\"img/Fukui_Prefectural_Award.jpg\" alt=\"The Fukui Prefectural Prize, a trophy filled with red pickled plum\" /></div>"
+    },
+    "press": {
+        "title": "Press and Businesses Trophies",
+        "header": "Press and Businesses Trophies",
+        "img1": "<img id=\"press_img1\" src=\"img/January_2025_Mainichi_portrait.jpg\" alt=\"A wrestler is presented with his championship portrait\" />",
+        "p": "<p>These are the press and businesses trophies given out to the wrestler who wins the yusho (championship) in the top division:</p>",
+        "ul1": "<ul><li>Oita's Shiitake Agricultural Cooperative Award</li><li>NHK Gold Cup</li><li>Championship portrait</li><li>Ozeki award</li></ul>",
+        "header2": "<h2>Tokyo Specific Press and Businesses Trophies</h2>",
+        "ul2": "<ul><li>Tokyo Shimbun award</li><li>Kokubun Metropolitan Cup</li></ul>",
+        "header3": "<h2>Osaka Specific Press and Businesses Trophies</h2>",
+        "ul3": "<ul><li>Yoshimoto Kogyo Award</li><li>Tozai-kai Championship Flag</li><li>Japan Mint President's Cup</li></ul>",
+        "header4": "<h2>Nagoya Specific Press and Businesses Trophies</h2>",
+        "ul4": "<ul><li>Chunichi Shimbun Award</li><li>CBC TV Award</li><li>TTB TV Award</li><li>Mikawa Beef Welfare Council Award</li></ul>",
+        "header5": "<h2>Fukuoka Specific Press and Businesses Trophies</h2>",
+        "ul5": "<ul><li>RKB Mainichi Broadcasting Award</li><li>Yamecha Tea Promotion Association Award (and green box)</li></ul>",
+        "img_container": "<div class=\"img_container\"><img id=\"press_img2\" src=\"img/Oita's_Shiitake_Agricultural_Cooperative_Award.jpg\" alt=\"The Oita's Shiitake Agricultural Cooperative Award, a transparent cylindrical trophy filled with shiitake mushrooms\" /><img id=\"press_img3\" src=\"img/Ozeki_sake_award.jpg\" alt=\"The Ozeki award, a large silver sakazuki\" /></div>"
+    }
+}
