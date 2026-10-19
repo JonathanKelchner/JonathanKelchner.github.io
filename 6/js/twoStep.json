@@ -108,7 +108,7 @@
     "yokozuna": {
         "title": "Yokozuna",
         "header": "Yokozuna",
-        "img1": "<img id=\"yokozuna_img1\" src=\"img/Hakuho_Shiranui_dohyo-iri_2012_Jan.jpg\" alt=\"69th yokozuna Hakuho performing his dohyo-iri\" />",
+        "img1": "<img id=\"yokozuna_img1\" src=\"img/Hakuho_Shiranui_dohyo-iri_2012_Jan.JPG\" alt=\"69th yokozuna Hakuho performing his dohyo-iri\" />",
         "header2": "<h2>What is the rank of Yokozuna?</h2>",
         "p": "<p>The yokozuna rank is the highest rank in sumo, and is the highest of the san'yaku, the title holder ranks. The name yokozuna literally means \"horizontal rope\", refering to the rope that they wear around their waists for ceremonial purposes. Since formal record keeping of sumo started in 1789, there have only been 75 wrestlers who have reached the rank of yokozuna. This is due to the fact that it is extremely difficult to get promoted to yokozuna. Unlike the other sumo ranks, yokozuna can not be demoted, but this means that they must keep their performance to the highest standards, like regularly winning, or almost winning, yushos (championships). A single make-koshi, a losing record, can pose serious concerns about if the wrestler is still fit for the title of yokozuna. Because of the amount of pressure that comes with upholding the rank, yokozuna tend to withdraw from bashos citing health reasons, sometimes withdrawing in the middle of a basho. If a yokozuna performs poorly for an extended period of time, or hasn't held up the dignity of the rank outside of bashos, he may be recommended to retire by the Yokozuna Deliberation Council. Retiring from sumo is the only way for a yokozuna to stop being a yokozuna.</p>",
         "img_container": "<div class=\"img_container\"><img id=\"yokozuna_img2\" src=\"img/Hoshoryu20251123.jpg\" alt=\"74th yokozuna Hoshoryu performing his dohyo-iri\" /><img id=\"yokozuna_img3\" src=\"img/Onosato-20250721.jpg\" alt=\"75th yokozuna Onosato performing his dohyo-iri\" /></div>"
@@ -148,7 +148,7 @@
     "main_prizes": {
         "title": "Main Prizes/Once a Year Trophies",
         "header": "Main Prizes/Once a Year Trophies",
-        "img1": "<img id=\"main_prizes_img1\" src=\"img/Sumo_Emperor_Cup.jpg\" alt=\"The Emperor's Cup, a large silver trophy with two large handles mounted on a base\" />",
+        "img1": "<img id=\"main_prizes_img1\" src=\"img/Sumo_Emperor_Cup.JPG\" alt=\"The Emperor's Cup, a large silver trophy with two large handles mounted on a base\" />",
         "header2": "<h2>The Main Prizes</h2>",
         "p1": "<p>These are the main prizes given out to the wrestler who wins the yusho (championship) in the top division:</p>",
         "ul1": "<ul><li>The Emperor's Cup</li><li>The championship flag</li><li>Prime Minister's Cup</li></ul>",
