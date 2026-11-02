@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jonathan Kelchner">
+    <meta name="description" content="This is the first 2-step page of my project">
+	<meta name="keywords" content="Sumo, wrestling, grappling, fighting, info, informative">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>In-Depth Sumo Topics</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+</head>
+<body class="hidden">
+	<header>
+		<button class="back_button hidden header_button">Back</button>
+		<h1>In-Depth Sumo Topics</h1>
+		<nav>
+			<ul>
+				<li class="home_li_left"><a class="dark_anchor" href="index.html">Home</a></li>
+				<li class="home_li_center"><a class="dark_anchor" href="static.html">Sumo 101</a></li>
+				<li class="home_li_center current"><a class="light_anchor" href="twostep.html">In-Depth Sumo Topics</a></li>
+				<li class="home_li_right"><a class="dark_anchor" href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="card twostep_card">
+			<ul>
+				<li><button class="twoStepButton">People in and Around the Ring</button></li>
+				<li><button class="twoStepButton">San'yaku</button></li>
+				<li><button class="twoStepButton">Tournament Venues</button></li>
+				<li><button class="twoStepButton">Trophies and Prizes</button></li>
+			</ul>
+		</div>
+	</main>
+	<footer>
+		<p>2026 Jonathan Kelchner</p>
+		<a href="credits.html">Photo Credits</a>
+	</footer>
+	<script type="module" src="js/script.js"></script>
+	<script type="module">
+		import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js";
+		import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
+
+		const firebaseConfig = {
+            apiKey: "AIzaSyBNUbUumU90CqiCDBVnInWgC260Y-7_s3U",
+            authDomain: "csci3054-project5-sumo.firebaseapp.com",
+            projectId: "csci3054-project5-sumo",
+            storageBucket: "csci3054-project5-sumo.firebasestorage.app",
+            messagingSenderId: "802652125302",
+            appId: "1:802652125302:web:36d6daf59468e01a960757"
+        };
+
+		const app = initializeApp(firebaseConfig);
+		const auth = getAuth(app);
+
+		onAuthStateChanged(auth, (user) => {
+			if (!user) {
+				window.location.replace("/login.html");
+				return;
+			}
+
+			document.body.classList.remove("hidden");
+		});
+	</script>
+</body>
+</html>

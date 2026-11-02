@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Jonathan Kelchner">
+    <meta name="description" content="This is the login page of my project">
+	<meta name="keywords" content="Sumo, wrestling, grappling, fighting, info, informative">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Login/Sign Up</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+</head>
+<body>
+	<header>
+        <button type="button" class="header_button">Back To Home</button>
+		<h1>Login/Sign Up</h1>
+	</header>
+	<main>
+        <div class="card" id="auth_card">
+            <form id="auth_form">
+                <label>
+                    Email
+                    <input id="email" type="email" autocomplete="email" required>
+                </label>
+
+                <label>
+                    Password
+                    <input id="password" type="password" autocomplete="current-password" minlength="6" required>
+                </label>
+
+                <button type="submit">Log in</button>
+                <button type="button" id="signup_button">Sign up</button>
+                <button type="button" id="change_password">Change Password</button>
+            </form>
+            <form class="hidden" id="change_password_form">
+                <label>
+                    Email
+                    <input id="current_email" type="email" autocomplete="email" required>
+                </label>
+
+                <label>
+                    Current password
+                    <input id="current_password" type="password" autocomplete="current-password" required>
+                </label>
+
+                <label>
+                    New password
+                    <input id="new_password" type="password" autocomplete="new-password" minlength="6" required>
+                </label>
+
+                <button type="submit">Change password</button>
+            </form>
+        </div>
+
+        <p id="message" role="status"></p>
+	</main>
+	<footer>
+		<p>2026 Jonathan Kelchner</p>
+	</footer>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-app.js";
+        import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged, updatePassword, signOut } from "https://www.gstatic.com/firebasejs/13.1.0/firebase-auth.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyBNUbUumU90CqiCDBVnInWgC260Y-7_s3U",
+            authDomain: "csci3054-project5-sumo.firebaseapp.com",
+            projectId: "csci3054-project5-sumo",
+            storageBucket: "csci3054-project5-sumo.firebasestorage.app",
+            messagingSenderId: "802652125302",
+            appId: "1:802652125302:web:36d6daf59468e01a960757"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+
+        const authForm = document.querySelector("#auth_form");
+        const passForm = document.querySelector("#change_password_form");
+        const emailInput = document.querySelector("#email");
+        const passwordInput = document.querySelector("#password");
+        const message = document.querySelector("#message");
+        const back = document.querySelector(".header_button");
+
+        function showError(error) {
+            const messages = {
+                "auth/email-already-in-use": "That email already has an account. Try logging in.",
+                "auth/invalid-email": "Enter a valid email address.",
+                "auth/weak-password": "Choose a stronger password.",
+                "auth/invalid-credential": "Email or password is incorrect."
+            };
+
+            message.textContent = messages[error.code] ?? "Something went wrong. Please try again.";
+        }
+
+        authForm.addEventListener("submit", async (event) => {
+            event.preventDefault();
+            message.textContent = "";
+
+            try {
+                await signInWithEmailAndPassword(
+                    auth,
+                    emailInput.value.trim(),
+                    passwordInput.value
+                );
+            } catch (error) {
+                showError(error);
+            }
+        });
+
+        document.querySelector("#signup_button").addEventListener("click", async () => {
+            message.textContent = "";
+
+            try {
+                await createUserWithEmailAndPassword(
+                    auth,
+                    emailInput.value.trim(),
+                    passwordInput.value
+                );
+            } catch (error) {
+                showError(error);
+            }
+        });
+
+        let flag = true;
+
+        onAuthStateChanged(auth, (user) => {
+            if (user && flag) {
+                window.location.replace("index.html");
+            }
+        });
+
+        back.addEventListener("click", () => {
+            window.location.replace("index.html");
+        });
+
+        document.querySelector("#change_password").addEventListener("click", () => {
+            message.textContent = "";
+            authForm.reset();
+            authForm.classList.add("hidden");
+            passForm.classList.remove("hidden");
+        });
+
+        passForm.addEventListener("submit", async (event) => {
+            event.preventDefault();
+            message.textContent = "";
+
+            try {
+                flag = false;
+                await signInWithEmailAndPassword(
+                    auth,
+                    document.querySelector("#current_email").value.trim(),
+                    document.querySelector("#current_password").value
+                );
+                await updatePassword(auth.currentUser, document.querySelector("#new_password").value);
+                passForm.reset();
+                await signOut(auth);
+                flag = true;
+                passForm.classList.add("hidden");
+                authForm.classList.remove("hidden");
+                message.textContent = "Password sucessfully changed!";
+            } catch (error) {
+                showError(error);
+            }
+        });
+    </script>
+</body>
+</html>
